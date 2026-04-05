@@ -1,0 +1,5 @@
+INFO     api_logger:test_api.py:18 Starting test: GET all users
+INFO     api_logger:base_api.py:11 GET request to /users
+INFO     api_logger:base_api.py:15 Response Status: 200
+INFO     api_logger:base_api.py:16 Response Body: [{"id":1,"name":"Pragati","job":"QA"},{"id":2,"name":"Rahul","job":"Developer"}]
+INFO     api_logger:test_api.py:23 Users count: 2

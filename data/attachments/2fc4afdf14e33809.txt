@@ -1,0 +1,10 @@
+INFO     api_logger:test_api.py:73 Starting test: DELETE user
+INFO     api_logger:base_api.py:21 POST request to /users
+INFO     api_logger:base_api.py:22 Payload: {'name': 'John', 'job': 'manager'}
+INFO     api_logger:base_api.py:26 Response Status: 200
+INFO     api_logger:base_api.py:27 Response Body: {"name":"John","job":"manager","id":5}
+INFO     api_logger:test_api.py:79 User created with ID: 5
+INFO     api_logger:base_api.py:43 DELETE request to /users/5
+INFO     api_logger:base_api.py:47 Response Status: 200
+INFO     api_logger:base_api.py:48 Response Body: {"message":"User deleted"}
+INFO     api_logger:test_api.py:87 Delete response: {'message': 'User deleted'}

@@ -1,0 +1,10 @@
+2026-04-05 16:15:32,462 - INFO - Starting test: DELETE user
+2026-04-05 16:15:32,462 - INFO - POST request to /users
+2026-04-05 16:15:32,462 - INFO - Payload: {'name': 'John', 'job': 'manager'}
+2026-04-05 16:15:32,464 - INFO - Response Status: 200
+2026-04-05 16:15:32,464 - INFO - Response Body: {"name":"John","job":"manager","id":5}
+2026-04-05 16:15:32,464 - INFO - User created with ID: 5
+2026-04-05 16:15:32,464 - INFO - DELETE request to /users/5
+2026-04-05 16:15:32,467 - INFO - Response Status: 200
+2026-04-05 16:15:32,467 - INFO - Response Body: {"message":"User deleted"}
+2026-04-05 16:15:32,467 - INFO - Delete response: {'message': 'User deleted'}

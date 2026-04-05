@@ -1,0 +1,6 @@
+[32mINFO    [0m api_logger:test_api.py:28 Starting test: CREATE user
+[32mINFO    [0m api_logger:base_api.py:21 POST request to /users
+[32mINFO    [0m api_logger:base_api.py:22 Payload: {'name': 'John', 'job': 'manager'}
+[32mINFO    [0m api_logger:base_api.py:26 Response Status: 200
+[32mINFO    [0m api_logger:base_api.py:27 Response Body: {"name":"John","job":"manager","id":7}
+[32mINFO    [0m api_logger:test_api.py:33 Created user: {'name': 'John', 'job': 'manager', 'id': 7}
