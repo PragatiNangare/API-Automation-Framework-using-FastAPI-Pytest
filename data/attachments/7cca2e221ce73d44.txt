@@ -1,0 +1,6 @@
+2026-04-05 16:25:08,291 - INFO - Starting test: CREATE user
+2026-04-05 16:25:08,291 - INFO - POST request to /users
+2026-04-05 16:25:08,291 - INFO - Payload: {'name': 'John', 'job': 'manager'}
+2026-04-05 16:25:08,294 - INFO - Response Status: 200
+2026-04-05 16:25:08,294 - INFO - Response Body: {"name":"John","job":"manager","id":3}
+2026-04-05 16:25:08,294 - INFO - Created user: {'name': 'John', 'job': 'manager', 'id': 3}

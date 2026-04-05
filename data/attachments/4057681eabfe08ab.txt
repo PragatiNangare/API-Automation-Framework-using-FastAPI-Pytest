@@ -1,0 +1,11 @@
+2026-04-05 16:25:08,296 - INFO - Starting test: UPDATE user
+2026-04-05 16:25:08,296 - INFO - POST request to /users
+2026-04-05 16:25:08,296 - INFO - Payload: {'name': 'John', 'job': 'manager'}
+2026-04-05 16:25:08,298 - INFO - Response Status: 200
+2026-04-05 16:25:08,298 - INFO - Response Body: {"name":"John","job":"manager","id":4}
+2026-04-05 16:25:08,298 - INFO - User created with ID: 4
+2026-04-05 16:25:08,298 - INFO - PUT request to /users/4
+2026-04-05 16:25:08,298 - INFO - Payload: {'name': 'John D', 'job': 'Senior Role'}
+2026-04-05 16:25:08,300 - INFO - Response Status: 200
+2026-04-05 16:25:08,300 - INFO - Response Body: {"name":"John D","job":"Senior Role","id":4}
+2026-04-05 16:25:08,300 - INFO - Updated user: {'name': 'John D', 'job': 'Senior Role', 'id': 4}
