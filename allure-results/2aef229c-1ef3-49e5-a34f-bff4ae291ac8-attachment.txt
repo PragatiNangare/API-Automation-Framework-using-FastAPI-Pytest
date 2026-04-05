@@ -1,0 +1,5 @@
+2026-04-05 21:30:11,650 - INFO - Starting test: GET all users
+2026-04-05 21:30:11,650 - INFO - GET request to /users
+2026-04-05 21:30:11,653 - INFO - Response Status: 200
+2026-04-05 21:30:11,653 - INFO - Response Body: [{"id":1,"name":"Pragati","job":"QA"},{"id":2,"name":"Rahul","job":"Developer"},{"name":"John","job":"manager","id":3},{"name":"John D","job":"Senior Role","id":4},{"name":"John","job":"manager","id":5},{"name":"John D","job":"Senior Role","id":6}]
+2026-04-05 21:30:11,653 - INFO - Users count: 6

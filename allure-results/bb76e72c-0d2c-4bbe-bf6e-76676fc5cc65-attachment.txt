@@ -1,0 +1,11 @@
+[32mINFO    [0m api_logger:test_api.py:49 Starting test: UPDATE user
+[32mINFO    [0m api_logger:base_api.py:21 POST request to /users
+[32mINFO    [0m api_logger:base_api.py:22 Payload: {'name': 'John', 'job': 'manager'}
+[32mINFO    [0m api_logger:base_api.py:26 Response Status: 200
+[32mINFO    [0m api_logger:base_api.py:27 Response Body: {"name":"John","job":"manager","id":4}
+[32mINFO    [0m api_logger:test_api.py:55 User created with ID: 4
+[32mINFO    [0m api_logger:base_api.py:32 PUT request to /users/4
+[32mINFO    [0m api_logger:base_api.py:33 Payload: {'name': 'John D', 'job': 'Senior Role'}
+[32mINFO    [0m api_logger:base_api.py:37 Response Status: 200
+[32mINFO    [0m api_logger:base_api.py:38 Response Body: {"name":"John D","job":"Senior Role","id":4}
+[32mINFO    [0m api_logger:test_api.py:63 Updated user: {'name': 'John D', 'job': 'Senior Role', 'id': 4}
