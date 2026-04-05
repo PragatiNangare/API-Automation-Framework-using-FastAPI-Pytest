@@ -11,6 +11,8 @@ jobs:
   test:
     name: Run API Tests
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       # 1. Checkout the code
